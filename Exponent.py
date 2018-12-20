@@ -1,4 +1,4 @@
 import math
 N=int(input());
-K=int(input());
-print(math.pow(N,K))
+k=int(input());
+print(math.pow(N,k))
