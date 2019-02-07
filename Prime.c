@@ -4,6 +4,10 @@ void main()
     int num,i,flag=0;
     printf("Enter a number:");
     scanf("%d",&num);
+    if(num>1000)
+    {
+        return;
+    }
     if(num==1)
     {
         printf("%d is neither a prime nor a composite number.",num);
