@@ -7,17 +7,17 @@ int cube(int num)
 
 void main()
 {
-    int a,result=0,rem,n;
+    int N,result=0,rem,n;
     printf("INPUT:\n");
-    scanf("%d",&a);
-    n=a;
+    scanf("%d",&N);
+    n=N;
     while(n!=0)
     {
         rem=n%10;
         result=result+(cube(rem));
         n=n/10;
     }
-    if(result==a)
+    if(result==N)
     {
         printf("YES");
     }
@@ -26,3 +26,4 @@ void main()
         printf("NO");
     }
 }
+
